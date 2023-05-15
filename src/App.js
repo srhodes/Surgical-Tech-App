@@ -13,9 +13,9 @@ function App() {
     <div>
        <Routes>
         <Route path='/' element={<>  <NavBarComponent/> <h1>Sergey Karl Tech App </h1><hr/><ToggleComponent/></>}/>
-        <Route path='/directory' element={ <> <NavBarComponent/> <LayoutComponent/> </>}/>
-        <Route path='/contactus' element={ <> <NavBarComponent/> Contact Us <hr/> </>}/>
-        <Route path='/aboutus' element={ <> <NavBarComponent/> About Us <hr/></>}/>
+        <Route path='directory' element={ <> <NavBarComponent/> <LayoutComponent/> </>}/>
+        <Route path='contactus' element={ <> <NavBarComponent/> Contact Us <hr/> </>}/>
+        <Route path='aboutus' element={ <> <NavBarComponent/> About Us <hr/></>}/>
         {/* <Route path='/data' element={
           
           
