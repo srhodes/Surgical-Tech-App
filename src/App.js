@@ -8,15 +8,18 @@ import NavBarComponent from './components/NavBarComponent';
 import ToggleComponent from './components/ToggleComponent';
 import CarouselComponent from './components/CarouselComponent';
 import DirectoryPage from './pages/DirectoryPage';
+import HomePage from './pages/HomePage';
+import ContactUsPage from './pages/ContactUsPage';
+import AboutUsPage from './pages/AboutUsPage';
 
 function App() {
   return (
     <div>
        <Routes>
-        <Route path='/' element={<>  <NavBarComponent/> <h1>Sergey Karl Tech App </h1><hr/><ToggleComponent/></>}/>
-        <Route path='directory' element={ <DirectoryPage/>}/>
-        <Route path='contactus' element={ <> <NavBarComponent/> Contact Us <hr/> </>}/>
-        <Route path='aboutus' element={ <> <NavBarComponent/> About Us <hr/></>}/>
+        <Route path='/' element={<> <HomePage/></>}/>
+        <Route path='directory' element={ <> <DirectoryPage/> </>}/>
+        <Route path='contactus' element={ <> <ContactUsPage/> </>}/>
+        <Route path='aboutus' element={ <> <AboutUsPage/> </>}/>
         {/* <Route path='/data' element={
           
           
