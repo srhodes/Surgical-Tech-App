@@ -111,7 +111,7 @@ class Contact extends Component {
                     <div className="col-sm-4">
                         <h5>Our Address</h5>
                         <address>
-                            1 Nucamp Way<br />
+                            123 Sergey Karl Str<br />
                             Seattle, WA 98001<br />
                             U.S.A.
                         </address>
